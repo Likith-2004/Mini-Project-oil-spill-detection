@@ -55,8 +55,5 @@ The model demonstrated high accuracy and precision, with a confusion matrix and 
 ## Conclusion
 The project underscores the potential of deep learning for automated oil spill detection. The model’s successful identification of oil spills across diverse environments indicates its viability for real-world deployment in environmental monitoring and disaster management. Future enhancements may include real-time integration and dataset expansion.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 Special thanks to all contributors and collaborators who made this project possible.
