@@ -70,7 +70,3 @@ Fork the repository :
 
 vbnet
 Copy code
-
-
-This `README.md` file includes all essential details for understanding, installing, and using the project. Let me know if you'd like to add any additional sections or specifics.
-
