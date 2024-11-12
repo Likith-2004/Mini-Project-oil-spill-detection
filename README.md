@@ -47,8 +47,11 @@ The marine_model.h5 is a CNN model specifically trained for oil spill detection 
 
 ## Requirements
 **Flask-3.0.3**
+
 **Tensorflow-2.17.0**
+
 **Numpy-1.26.4**
+
 **Pillow-10.4.0**
 
 ## Contributing
