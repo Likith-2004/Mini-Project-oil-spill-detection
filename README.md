@@ -1,7 +1,5 @@
 # Oil Spill Detection AI
 
-![Marine Life Savers](https://github.com/thilak-r/oil-spill-detection-AI/blob/main/sample_img.png) <!-- Add a relevant image link here if available -->
-
 ## Overview
 The **Oil Spill Detection AI** project leverages a convolutional neural network (CNN) model to detect oil spills in images. By automating this detection process, the system enables real-time monitoring and helps accelerate response times to protect marine ecosystems from oil pollution. The project is designed to assist in effective cleanup efforts by providing a fast and reliable tool for oil spill identification.
 
@@ -23,13 +21,7 @@ The **Oil Spill Detection AI** project leverages a convolutional neural network 
    python3 -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
 
-3. **Install Dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
 Download and Place the Model: Ensure marine_model.h5 is in the root directory of the project. This is the trained CNN model for detecting oil spills.
-
-Usage
 
 ## Run the application:
 
@@ -52,6 +44,12 @@ The marine_model.h5 is a CNN model specifically trained for oil spill detection 
 - **Flask**: Web framework for building the web interface.
 - **TensorFlow / Keras**: Frameworks used to develop and train the CNN model.
 - **HTML/CSS**: Frontend development for the web interface.
+
+## Requirements
+**Flask-3.0.3**
+**Tensorflow-2.17.0**
+**Numpy-1.26.4**
+**Pillow-10.4.0**
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
