@@ -1,59 +1,76 @@
-# Oil Spill Detection Using Deep Learning Techniques
+# Oil Spill Detection AI
 
-## Project Overview
-This project presents a deep learning-based approach to detecting oil spills in various environmental conditions. By leveraging convolutional neural networks (CNNs), the model is designed to automate the identification of oil spills, offering a scalable solution to the traditionally costly and labor-intensive methods currently in use. The project’s objective is to provide an efficient and accurate tool for environmental monitoring and disaster response.
+![Marine Life Savers](https://github.com/thilak-r/oil-spill-detection-AI/blob/main/sample_img.png) <!-- Add a relevant image link here if available -->
 
-## Table of Contents
-1. [Abstract](#abstract)
-2. [Introduction](#introduction)
-3. [Related Work](#related-work)
-4. [Methodology](#methodology)
-5. [Dataset](#dataset)
-6. [Preprocessing](#preprocessing)
-7. [Model Architecture](#model-architecture)
-8. [Evaluation Metrics](#evaluation-metrics)
-9. [Results](#results)
-10. [Conclusion](#conclusion)
+## Overview
+The **Oil Spill Detection AI** project leverages a convolutional neural network (CNN) model to detect oil spills in images. By automating this detection process, the system enables real-time monitoring and helps accelerate response times to protect marine ecosystems from oil pollution. The project is designed to assist in effective cleanup efforts by providing a fast and reliable tool for oil spill identification.
 
-## Abstract
-This project applies CNNs to detect oil spills in images from diverse environments. The model’s high accuracy in identifying oil spills across various tests highlights its robustness, making it a reliable option for environmental monitoring.
 
-## Introduction
-Oil spills are hazardous to marine and coastal ecosystems, and current detection methods often require substantial resources. This project introduces a machine learning-based solution to automate oil spill detection, improving scalability and reliability in identifying spills across different scenarios.
+## Features
+- **Real-time Oil Spill Detection:** Identifies oil spills in uploaded images using a pre-trained CNN model.
+- **Web-Based Interface:** Provides a user-friendly web application for easy interaction.
+- **Efficient and Reliable:** Helps monitor and alert users of potential oil spills promptly.
+  
+## Installation
 
-## Related Work
-Previous studies have shown the effectiveness of CNNs, ResNet, and transfer learning for environmental pattern recognition in images. This project extends these techniques to enhance feature extraction specifically for oil spill detection.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/thilak-r/oil-spill-detection-AI.git
+   cd oil-spill-detection-AI
+   
+2. **Set up a Virtual Environment (Optional but Recommended)**:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
 
-## Methodology
-The project methodology involves:
-- **Data Acquisition:** Collecting a labeled dataset of oil-spill and non-oil-spill images.
-- **Model Design:** Building a CNN architecture optimized for feature extraction and classification.
-- **Training & Evaluation:** Fine-tuning the model to maximize accuracy and minimize false positives.
+3. **Install Dependencies**:
 
-## Dataset
-The dataset consists of labeled images representing various marine environments. Data is divided into training, validation, and testing sets to ensure comprehensive evaluation.
+   ```bash
+   pip install -r requirements.txt
+Download and Place the Model: Ensure marine_model.h5 is in the root directory of the project. This is the trained CNN model for detecting oil spills.
 
-## Preprocessing
-Image preprocessing includes resizing, normalization, and augmentation techniques such as rotation and flipping to enhance model generalization and robustness.
+Usage
 
-## Model Architecture
-The CNN architecture includes multiple convolutional layers for feature extraction, followed by pooling and dense layers. A final softmax layer outputs the probability of the image containing an oil spill.
+## Run the application:
 
-## Evaluation Metrics
-Performance is evaluated using metrics such as:
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1 Score**
-- **AUC-ROC**
+   ```bash
+   python app.py
+```
 
-These metrics collectively measure the model’s effectiveness in minimizing false positives while maintaining high detection accuracy.
 
-## Results
-The model demonstrated high accuracy and precision, with a confusion matrix and ROC curve indicating strong performance across various test conditions. This effectiveness suggests it is suitable for practical environmental monitoring applications.
+Access the Web Interface: Open a browser and go to http://127.0.0.1:5000 to interact with the oil spill detection system.
 
-## Conclusion
-The project underscores the potential of deep learning for automated oil spill detection. The model’s successful identification of oil spills across diverse environments indicates its viability for real-world deployment in environmental monitoring and disaster management. Future enhancements may include real-time integration and dataset expansion.
+Upload an Image: Use the upload feature to test the model by uploading an image. The system will analyze the image and display whether an oil spill is detected.
 
-## Acknowledgments
-Special thanks to all contributors and collaborators who made this project possible.
+## Model
+
+The marine_model.h5 is a CNN model specifically trained for oil spill detection using a dataset of images. The model uses advanced deep learning techniques to achieve accurate results in identifying oil spills from images.
+
+## Technologies Used :
+
+- **Python**: Core programming language.
+- **Flask**: Web framework for building the web interface.
+- **TensorFlow / Keras**: Frameworks used to develop and train the CNN model.
+- **HTML/CSS**: Frontend development for the web interface.
+
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+
+Fork the repository :
+  Create a new branch (git checkout -b feature-branch).
+  Make your changes and commit them (git commit -m 'Add new feature').
+  Push to the branch (git push origin feature-branch).
+  Open a Pull Request.
+  License
+  This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments:
+  Special thanks to the community and contributors for their valuable input and support in building this project.
+
+vbnet
+Copy code
+
+
+This `README.md` file includes all essential details for understanding, installing, and using the project. Let me know if you'd like to add any additional sections or specifics.
+
