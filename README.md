@@ -15,8 +15,8 @@ The **Oil Spill Detection AI** project leverages a convolutional neural network 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/thilak-r/oil-spill-detection-AI.git
-   cd oil-spill-detection-AI
+   git clone https://github.com/Likith-2004/mini-project.git
+   cd mini-project
    
 2. **Set up a Virtual Environment (Optional but Recommended)**:
    ```bash
@@ -29,7 +29,6 @@ The **Oil Spill Detection AI** project leverages a convolutional neural network 
    pip install -r requirements.txt
 Download and Place the Model: Ensure marine_model.h5 is in the root directory of the project. This is the trained CNN model for detecting oil spills.
 
-Usage
 
 ## Run the application:
 
@@ -57,7 +56,7 @@ The marine_model.h5 is a CNN model specifically trained for oil spill detection 
 Contributions are welcome! Please follow these steps to contribute:
 
 
-Fork the repository :
+## Fork the repository :
   Create a new branch (git checkout -b feature-branch).
   Make your changes and commit them (git commit -m 'Add new feature').
   Push to the branch (git push origin feature-branch).
@@ -67,9 +66,6 @@ Fork the repository :
 
 ## Acknowledgments:
   Special thanks to the community and contributors for their valuable input and support in building this project.
-
-vbnet
-Copy code
 
 
 This `README.md` file includes all essential details for understanding, installing, and using the project. Let me know if you'd like to add any additional sections or specifics.
