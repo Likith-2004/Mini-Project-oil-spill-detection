@@ -1,5 +1,10 @@
 # Oil Spill Detection AI
 
+## Try these links:
+
+under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
+
+![Screenshot 2024-12-13 222242](https://github.com/user-attachments/assets/fcb543ca-e043-415c-89b1-deb7a8a70f00)
 
 
 ## Overview
