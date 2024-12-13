@@ -1,8 +1,5 @@
 # Oil Spill Detection AI
 
-## Try these links:
-
-under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
 
 ![Screenshot 2024-12-13 222242](https://github.com/user-attachments/assets/fcb543ca-e043-415c-89b1-deb7a8a70f00)
 
@@ -70,7 +67,7 @@ Contributions are welcome! Please follow these steps to contribute:
   This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments:
-  Special thanks to the community and contributors for their valuable input and support in building this project.
+  Special thanks to the [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu) for their valuable input and support in building this project.
 
 
 This `README.md` file includes all essential details for understanding, installing, and using the project. Let me know if you'd like to add any additional sections or specifics.
