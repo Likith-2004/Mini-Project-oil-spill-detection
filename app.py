@@ -4,14 +4,21 @@ import tensorflow as tf
 from keras.models import load_model
 from PIL import Image
 import io
+import os
 
 app = Flask(__name__)
 
-# Load your model (update the path accordingly)
-model = load_model('m_model.h5')
-
-# Labels for prediction
+# Initialize variables for lazy loading
+model = None
 labels = ['Non Oil Spill', 'Oil Spill']
+
+def get_model():
+    global model
+    if model is None:
+        # Lazy load the model
+        print("Loading model...")
+        model = load_model('m_model.h5')
+    return model
 
 def load_and_preprocess_image(image):
     try:
@@ -37,6 +44,7 @@ def predict():
             img = load_and_preprocess_image(file.read())
             if img is not None:
                 try:
+                    model = get_model()  # Ensure the model is loaded
                     prediction = model.predict(img)
                     predicted_class = (prediction > 0.5).astype("int32")[0][0]
                     result_label = labels[predicted_class]
