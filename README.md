@@ -1,7 +1,8 @@
 # Oil Spill Detection AI
 
 
-![Screenshot 2024-12-13 222242](https://github.com/user-attachments/assets/fcb543ca-e043-415c-89b1-deb7a8a70f00)
+![1](https://github.com/user-attachments/assets/30195c45-9b92-4b51-bfcf-7cd5afee7a36)
+
 
 
 ## Overview
